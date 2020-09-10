@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Balcon</string>
+    <string name="pedido_text">Digite aqui o pedido a ser enviado</string>
+    <string name="enviar_pedido_main">Enviar pedido</string>
+    <string name="enviar">Enviar</string>
+    <string name="button">Button</string>
 </resources>

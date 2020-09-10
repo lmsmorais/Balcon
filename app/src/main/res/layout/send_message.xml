@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!-- Texto em branco para o cliente inserir o pedido a ser enviado -->
+    <EditText
+        android:id="@+id/txtMensagemEnviada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/pedido_text"
+        android:ems="10"
+        />
+<!-- Botão reponsável pelo envio do pedido pela aplicação externa -->
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:onClick="onEnviarPedido"
+        android:text="@string/enviar" />
+</LinearLayout>

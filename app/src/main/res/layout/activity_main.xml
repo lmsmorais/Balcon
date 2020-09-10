@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Configurando LinearLayout -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="0dp"
     android:orientation="vertical"
-    tools:context=".BalconActivity">
+    tools:context=".BalconMainActivity">
+
+    <!-- Barra persistente contendo o nome da aplicação -->
 
 
     <androidx.appcompat.widget.Toolbar
@@ -17,32 +20,33 @@
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
-        app:logoDescription="Balcon"
+        app:logoDescription="App Name"
         app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Display2"
-        app:title="Balcon"
+        app:title="@string/app_name"
         app:titleTextAppearance="@style/TextAppearance.AppCompat.Display2"
         app:titleTextColor="#FFFFFF" />
 
-    <TextView
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_margin="60dp"
-        android:layout_gravity="center"
-        android:ems="10"
-        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/txtMensagemMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_margin="35dp"
+        />
 
+    <!-- Botão para a atividade de envio do pedido -->
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnEnviarPedidoMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="16dp" />
+        android:layout_margin="25dp"
+        android:text="@string/enviar_pedido_main"/>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnHorasTrabalhadas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="16dp" />
+        android:layout_margin="25dp" />
 </LinearLayout>
