@@ -12,7 +12,7 @@ public class SendMessageActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.send_message);
+        setContentView(R.layout.activity_send_message);
     }
 
     /* Comunicação com intenções fora da aplicação */

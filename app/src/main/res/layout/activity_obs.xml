@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ObsActivity">
+
+    <!-- Texto em branco para inserir a observação a ser enviada -->
+    <EditText
+        android:id="@+id/txtEnviarObs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="15"
+        android:hint="@string/obs" />
+
+    <!-- Botão reponsável pelo envio da observação -->
+    <Button
+        android:id="@+id/btnEnviarObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="onEnviarObs"
+        android:text="@string/enviar_obs" />
+</LinearLayout>

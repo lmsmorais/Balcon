@@ -2,6 +2,11 @@
     <string name="app_name">Balcon</string>
     <string name="pedido_text">Digite aqui o pedido a ser enviado</string>
     <string name="enviar_pedido_main">Enviar pedido</string>
-    <string name="enviar">Enviar</string>
-    <string name="button">Button</string>
+    <string name="enviar_obs">Enviar observação</string>
+    <string name="horasTrabalhadas">Horas trabalhadas</string>
+    <string name="obs">Observação</string>
+    <string name="run">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="reset">Zerar</string>
+    <string name="voltar">Menu</string>
 </resources>
